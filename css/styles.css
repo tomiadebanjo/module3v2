@@ -1,0 +1,89 @@
+#chicken1 , #sushi1 , #beef1 {
+	height: 1000px;
+	background-color: #A9A9A9;
+	margin-top: 50px;
+	overflow: hidden;
+
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+#header-nav
+{
+	background-color: #A9A9A9;
+	border-radius: 0;
+	border-color: #000;
+}
+
+.navbar-brand > span {
+	font-weight: bold;
+	color: black;
+	font-size: 1.53em;
+}
+
+#navbar-list {
+	background-color: #fff;
+}
+
+h1 , h3 {
+	font-weight: bold;
+}
+
+#our-menu{
+	padding-top: 30px;
+}
+.navbar-header .collapsed {
+  border: 1px solid #000;
+}
+
+.navbar-header .closed .icon-bar {
+	border: 2px solid #fff;
+}
+
+button.navbar-toggle {
+	border: 2px solid #fff;
+}
+
+.navbar-header .collapsed .icon-bar {
+	border: 2px solid #000;
+}
+
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+background-color:#A9A9A9;
+}
+
+#footer-id {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+.navbar-nav
+{
+	margin-top:0;
+	margin-bottom: 0;
+}
+
+.navbar-nav >li {
+	border: 1px solid black;
+}
+
+.navbar-default .navbar-nav >li>a {
+	color:black;
+	font-weight: bold;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@media (max-width: 767px) {
+	#main-content {
+		margin-left:10%;
+		margin-right: 10%;
+	}
+}
